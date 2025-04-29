@@ -21,21 +21,7 @@ This project falls under the **Cryptography and Network Security** domain and de
 
 ## 📂 Project Structure
 
-proxy-server-defender/
-│
-├── 📁 django_site/             # Your Django website project
-│   ├── manage.py
-│   ├── django_site/
-│   │   └── settings.py
-│   └── ...                    # Other Django files and apps
-│
-├── nginx.conf                 # NGINX reverse proxy configuration
-│
-├── attack.py                  # Python script to simulate bots and users
-│
-├── results.log                # Logs of suspicious IPs and access details
-
-
+<pre><code> proxy-server-defender/ ├── django_site/ # Your Django website project │ ├── manage.py │ ├── django_site/ │ │ └── settings.py │ └── ... # Other Django files and apps ├── nginx.conf # NGINX reverse proxy configuration ├── attack.py # Python script to simulate bots and users ├── results.log # Logs of suspicious IPs and access details </code></pre>
 ---
 
 ## 🛠️ Key Features
